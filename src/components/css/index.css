@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #1d1d1d;
+    font-family: Arimo,Arial,Helvetica,"Lucida Grande",sans-serif;
+    
+}
+.navbar{
+    width:100%;
+    height:8vh;
+    background-color:black;
+    display:flex;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+    position:relative;
+
+    
+}
+
+.text{
+    margin-left:200px;
+    width:30%;
+    height:40px;
+    border-radius:100px!important;
+    border-color: blue;
+    position:absolute;
+}
+
+.navitems ul{
+    position:absolute;
+
+    display:flex;
+    list-style: none;
+    bottom:32%;
+    left:50%;
+    
+    width:50%;
+    
+    background-color: black;
+    
+    justify-content: space-around;
+    
+    
+    
+}
+
+.xl h1{
+    font-size:4em;
+    font-weight:700;
+    text-shadow:0 2px 2px rgba(0,0,0,.4);
+    margin-bottom: 15px;
+    margin-top:0px;
+    color:white;
+    text-align: center;
+    margin-top:5%;
+}
+.xl p{
+    font-size: .95em;
+    color: #ccc;
+    width: 650px;
+    margin: 0 auto;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+a{
+    color:#428bca;
+    text-decoration: none;
+    background-color: transparent;
+}
+.xs{
+    margin-left:31%;
+}
+.row{
+    
+    display:flex;
+    justify-content:space-between;
+    margin-right:60px;
+}
+
+.fe{
+    color:#428bca;
+    
+    
+}
+.card{
+    width:250px;
+    height:370px;
+    position:relative;
+    border:6px solid white;
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:5px;
+    
+}
+.card img{
+    width:100%;
+    height:90%;
+
+
+}
+.hidden-xs{
+
+    display:none;
+    
+    
+    
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card:hover 
+{
+    border: 6px solid green;
+}
+.card:hover .hidden-xs{
+    
+    display:block;
+ 
+}
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+
+    
+}
+.movie-name{
+    
+    color:white;
+}
+.browse-movie-year{
+    color:#919191;
+}
+
+.xls{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.practise{
+    width:100%;
+    height:100vh;
+    background-color: blue;
+    position: relative;
+}
+
+
+.home{
+    color:white;
+    position:absolute;
+    bottom:0;
+    background-color: yellow;
+    width:100%;
+    
+}
+.secondmiddlenavbar{
+    width:20%;
+    height:20%;
+    position:absolute;
+    background-color: red;
+    top:50%;
+}
+.carddata{
+    width:15%;
+    height:30vh;
+    background-color: orange;
+    bottom:0;
+    position:absolute;
+}
+.secondcarddata{
+    width:15%;
+    height:30vh;
+    background-color: orange;
+    top:0;
+    right:0;
+    position:absolute;
+}
+.middlenavbar{
+    display:flex;
+}
+.about{
+    right:0;
+    position:absolute;
+    color:white;
+}
+.contact{
+    color:white;
+    bottom:0;
+    position:absolute;
+    right:0;
+
+
+}
+.photoes{
+    color:white;
+    position:absolute;
+    
+    border:2px solid green;
+    
+}
+.xx-s{
+    color:white;
+}
+.foot{
+    width:100%;
+    height:200px;
+    background-color:#919191;
+    
+}
+.id{
+    color:white;
+}
+.mov{
+    color:white;
+}
+.button-xs{
+    width:100%;
+    height:10%;
+    background-color: aquamarine;
+}
+/* .container-xss{
+
+    background-color:aqua;
+}
+
+.description-se{
+    width:50%;
+    height:100px;
+    background-color: yellow;
+    position: absolute;
+    right:0;
+    
+} */
+/* .card-xe{
+    position:absolute;
+    left:0;
+    width:250px;
+    height:370px;
+    border:6px solid white;
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:5px;
+} */
+.description-se{
+    width:460px;
+    height:370px;
+    
+    margin-left:360px;
+    margin-top:-370px;
+    color:white;
+    /* background-color: red; */
+    
+
+    
+}
+.card{
+    margin-top:10px !important;
+    margin-left:10px 
+}
+/* .container-xss{
+    display:flex;
+    margin-top:50px;
+    
+} */
+#moviecard{
+    margin-top:60px !important;
+}
+
+.img1,.img2,.img3{
+    width:30%;
+    height:360px;
+     /* margin-top:500px; */
+    /*margin-left:0px; */
+    
+
+}
+.image{
+    margin-top:30px;
+    margin-left:90px;
+    
+    /* margin-right:200px; */
+
+
+}
+.footer-xsd{
+    width: 100%;
+    height:150px;
+    background-color:#919191;
+
+}
